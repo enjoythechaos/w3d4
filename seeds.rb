@@ -8,15 +8,15 @@
 
 ActiveRecord::Base.transaction do
 
-  User.create!(id: 1, username: 'Glen')
-  User.create!(id: 2, username: 'Steve')
-  User.create!(id: 3, username: 'Philbert')
-  User.create!(id: 4, username: 'Todd')
-  User.create!(id: 5, username: 'Cylinda')
-  User.create!(id: 6, username: 'Jovonne')
-  User.create!(id: 7, username: 'Ithuana')
-  User.create!(id: 8, username: 'Modesa')
-  User.create!(id: 9, username: 'Levi')
+  User.create!(id: 1, user_name: 'Glen')
+  User.create!(id: 2, user_name: 'Steve')
+  User.create!(id: 3, user_name: 'Philbert')
+  User.create!(id: 4, user_name: 'Todd')
+  User.create!(id: 5, user_name: 'Cylinda')
+  User.create!(id: 6, user_name: 'Jovonne')
+  User.create!(id: 7, user_name: 'Ithuana')
+  User.create!(id: 8, user_name: 'Modesa')
+  User.create!(id: 9, user_name: 'Levi')
 
   Poll.create!(id: 1, title: 'Favorite Stuff', author_id: 3)
   Poll.create!(id: 2, title: 'First things, first', author_id: 9)
